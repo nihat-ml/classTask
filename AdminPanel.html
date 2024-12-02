@@ -1,0 +1,275 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.1/css/all.min.css"
+        integrity="sha512-5Hs3dF2AEPkpNAR7UiOHba+lRSJNeM2ECkwxUIxC1Q/FLycGTbNapWXB4tP889k5T5Ju8fs4b1P5z/iB4nMfSQ=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <style>
+        * {
+            margin: 0px;
+            padding: 0px;
+            box-sizing: border-box;
+        }
+
+        .sections {
+            display: flex;
+        }
+
+        .left-section {
+            width: 15%;
+            background-color: #1D374E;
+            height: 100vh;
+            position: relative;
+        }
+
+        .right-section {
+            width: 85%;
+            height: 100vh;
+        }
+
+        .left-logo {
+            color: white;
+            display: flex;
+            gap: 10px;
+
+        }
+
+        .left-logo h2 {
+            margin-top: 20px;
+        }
+
+        .fa-paw {
+            font-size: 25px;
+            padding: 10px;
+            margin: 5px;
+            border: 1px solid white;
+            border-radius: 100%;
+
+
+        }
+
+        .profile {
+            display: flex;
+            margin: 20px 5px;
+        }
+
+        .prof-info {
+            color: white;
+            margin-left: 20px;
+            margin-top: 10px;
+        }
+
+        .prof-info p {
+            color: rgba(255, 255, 255, 0.571);
+        }
+
+        .profile img {
+            width: 60px;
+            height: 60px;
+            object-fit: cover;
+            border-radius: 100%;
+        }
+
+        .menu p {
+            color: white;
+            margin-left: 15px;
+        }
+
+        .Users a {
+            font-size: 25px;
+            display: flex;
+            color: white;
+            margin: 15px;
+            text-decoration: none;
+        }
+
+        .Users a p {
+            margin-left: 10px;
+
+        }
+
+        .companies a {
+            font-size: 25px;
+            display: flex;
+            color: white;
+            margin: 15px;
+            text-decoration: none;
+        }
+
+        .companies a p {
+            margin-left: 10px;
+        }
+
+        .menu-bar {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+
+        .icon-bar .fa-bars {
+            font-size: 40px;
+            margin-left: 10px;
+        }
+
+        .admin-info h3 {
+            color: black;
+            margin-right: 5px;
+            margin-bottom: 10px;
+        }
+        .Project-staff{
+            display: flex;
+            justify-content: space-between; 
+        }
+        .extantions{
+            display: flex;
+            margin: 10px;
+        }
+        .left-section-footer{
+            display: flex;
+            width: 100%;
+            
+            
+        }
+        .iframes{
+            color: #4B6681;
+            position: absolute;
+            bottom: 0;
+            display: flex;
+            justify-content: space-around;
+            gap: 60px;
+            font-size: 25px;
+        }
+        .add-button{
+            background-color: #1EC8A4;
+            color: white;
+            padding: 10px 5px;
+            border-radius: 5px;
+            
+        }
+        .search-bar input{
+            padding: 10px;
+        }
+        .go-button{
+            background-color: #1EC8A4;
+            color: white;
+            padding: 10px 10px;
+            border-radius: 5px;
+        }
+        table{
+            border: 1px solid black;
+            text-align: center;
+        }
+
+        
+    </style>
+</head>
+
+<body>
+    <div class="sections">
+        <div class="left-section">
+            <div class="left-logo">
+                <i class="fa-solid fa-paw"></i>
+                <h2>Madani</h2>
+            </div>
+            <div class="profile">
+                <img src="https://a.storyblok.com/f/191576/1200x800/a3640fdc4c/profile_picture_maker_before.webp"
+                    alt="">
+                <div class="prof-info">
+                    <p>Welcome</p>
+                    <h3>Super Admin</h3>
+                </div>
+
+            </div>
+            <div class="menu">
+                <p>General</p>
+            </div>
+            <div class="Users">
+                <a href="./users.html">
+                    <i class="fa-regular fa-user"></i>
+                    <p>Users</p>
+                </a>
+            </div>
+            <div class="companies">
+                <a href="./companies.html">
+                    <i class="fa-regular fa-building"></i>
+                    <p>Companies</p>
+                </a>
+            </div>
+            <footer class="left-section-footer">
+                <div class="iframes">
+                    <i class="fa-solid fa-gear"></i>
+                    <i class="fa-solid fa-expand"></i>
+                    <i class="fa-solid fa-volume-high"></i>
+                    <i class="fa-solid fa-power-off"></i>
+                </div>
+            </footer>
+
+        
+        </div>
+        <div class="right-section">
+            <div class="menu-bar">
+                <div class="icon-bar">
+                    <i class="fa-solid fa-bars"></i>
+                </div>
+                <div class="admin-info">
+                    <div class="profile">
+                        <img src="https://a.storyblok.com/f/191576/1200x800/a3640fdc4c/profile_picture_maker_before.webp"
+                            alt="">
+                        <div class="prof-info">
+                            <h3>Super Admin</h3>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+            <hr>
+            <div class="Project-staff">
+                <div class="logo-text">
+                    <h1>Project Staff</h1>
+                </div>
+                <div class="extantions">
+                    <div>
+                        <button class="add-button">Add New Staff</button>
+                    </div>
+                    <label class="search-bar">
+                        <input type="search" placeholder="Search for..."> <button class="go-button">Go</button>
+                    </label>
+                </div>
+            </div>
+
+            <div class="table-info">
+                <table style="width: 100%;">
+                    <thead>
+                        <tr>
+                            <th>#</th>
+                            <th>Name</th>
+                            <th>User Name</th>
+                            <th>Password</th>
+                            <th>Contact</th>
+                            <th>Adress</th>
+                            <th>#Edit</th>
+                        </tr>
+                        <tr>
+                            <td>1</td>
+                            <td>Rehman Shaikh</td>
+                            <td>rahman1</td>
+                            <td>********</td>
+                            <td>03000</td>
+                            <td>sukkur</td>
+                            <td>
+                                <button class="edit-btn" style="background-color: #1EC8A4; font-size: 15px; padding: 10px; border-radius: 5px; color: white;">Edit</button>
+                                <button class="delete-btn" style="background-color: red; font-size: 15px; padding: 10px; border-radius: 5px; color: white;">Delete</button>
+                            </td>
+                        </tr>
+                    </thead>
+                </table>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>

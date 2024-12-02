@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.1/css/all.min.css" integrity="sha512-5Hs3dF2AEPkpNAR7UiOHba+lRSJNeM2ECkwxUIxC1Q/FLycGTbNapWXB4tP889k5T5Ju8fs4b1P5z/iB4nMfSQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <style>
+        *{
+            margin: 0px;
+            padding: 0px;
+            box-sizing: border-box;
+        }
+        .sections{
+            display: flex;
+        }
+        .left-section{
+            width: 15%;
+            background-color: rgb(2, 2, 127);
+            height: 100vh;
+        }
+        .right-section{
+            width: 85%;
+            height: 100vh;
+        }
+        .left-logo{
+            color: white;
+            display: flex;
+            gap: 10px;
+            
+        }
+        .left-logo h2{
+            margin-top: 20px;
+        }
+        .fa-paw{
+            font-size: 25px;
+            padding: 10px;
+            margin: 5px;
+            border: 1px solid white;
+            border-radius: 100%;
+
+            
+        }
+        .profile{
+            display: flex;
+            margin:20px 5px;
+        }
+        .prof-info{
+            color: white;
+            margin-left: 20px;
+            margin-top: 10px;
+        }
+        .prof-info p{
+            color: rgba(255, 255, 255, 0.571);
+        }
+        .profile img{
+            width: 60px;
+            height: 60px;
+            object-fit:cover;
+            border-radius: 100%;
+        }
+        .menu p{
+            color: white;
+            margin-left: 15px;
+        }
+        .Users a{
+            font-size: 25px;
+            display: flex;
+            color: white;
+            margin: 15px;
+            text-decoration: none;
+        }
+        .Users a p{
+            margin-left: 10px;
+            
+        }
+        .companies a{
+            font-size: 25px;
+            display: flex;
+            color: white;
+            margin: 15px;
+            text-decoration: none;
+        }
+        .companies a p{
+            margin-left: 10px;
+        }
+    </style>
+</head>
+<body>
+    <div class="sections">
+        <div class="left-section">
+            <div class="left-logo">
+                <i class="fa-solid fa-paw"></i>
+                <h2>Madani</h2>
+            </div>
+            <div class="profile">
+                <img src="https://a.storyblok.com/f/191576/1200x800/a3640fdc4c/profile_picture_maker_before.webp" alt="">
+                <div class="prof-info">
+                    <p>Welcome</p>
+                    <h3>Super Admin</h3>
+                </div>
+
+            </div>
+            <div class="menu">
+                <p>General</p>
+            </div>
+            <div class="Users">
+                <a href="./users.html">
+                    <i class="fa-regular fa-user"></i>
+                    <p>Users</p>
+                </a>
+            </div>
+            <div class="companies">
+                <a href="./companies.html">
+                    <i class="fa-regular fa-building"></i>
+                    <p>Companies</p>
+                </a>
+            </div>
+        </div>
+        <div class="right-section"></div>
+    </div>
+</body>
+</html>

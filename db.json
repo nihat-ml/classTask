@@ -1,0 +1,85 @@
+{
+    "users": [
+      {
+        "id": 1,
+        "name": "John Smith",
+        "username": "jsmith24",
+        "password": "pass1234",
+        "contact": "555-1234",
+        "address": "123 Maple St, NY"
+      },
+      {
+        "id": 2,
+        "name": "Emily Johnson",
+        "username": "emjohnson12",
+        "password": "emily9876",
+        "contact": "555-2345",
+        "address": "456 Oak Rd, LA"
+      },
+      {
+        "id": 3,
+        "name": "Michael Brown",
+        "username": "mbrown_95",
+        "password": "mB@2024",
+        "contact": "555-3456",
+        "address": "789 Pine Ln, TX"
+      },
+      {
+        "id": 4,
+        "name": "Sarah Davis",
+        "username": "sdavis88",
+        "password": "myPass2024",
+        "contact": "555-4567",
+        "address": "101 Cedar Ave, FL"
+      },
+      {
+        "id": 5,
+        "name": "David Wilson",
+        "username": "dwilson77",
+        "password": "pass2024",
+        "contact": "555-5678",
+        "address": "202 Birch Dr, IL"
+      },
+      {
+        "id": 6,
+        "name": "Sophia Taylor",
+        "username": "staylor25",
+        "password": "sophia88",
+        "contact": "555-6789",
+        "address": "303 Redwood Blvd, CA"
+      },
+      {
+        "id": 7,
+        "name": "James Clark",
+        "username": "jclark44",
+        "password": "james123",
+        "contact": "555-7890",
+        "address": "404 Willow St, NV"
+      },
+      {
+        "id": 8,
+        "name": "Olivia Harris",
+        "username": "oharris66",
+        "password": "olivia4321",
+        "contact": "555-8901",
+        "address": "505 Elm St, WA"
+      },
+      {
+        "id": 9,
+        "name": "Daniel Lee",
+        "username": "dlee88",
+        "password": "daniel5678",
+        "contact": "555-9012",
+        "address": "606 Pinecrest Rd, OR"
+      },
+      {
+        "id": 10,
+        "name": "Mia Carter",
+        "username": "mcarter09",
+        "password": "mia8765",
+        "contact": "555-0123",
+        "address": "707 Maple Ave, AZ"
+      }
+    ]
+  }
+  
